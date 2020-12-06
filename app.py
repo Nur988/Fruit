@@ -11,7 +11,7 @@ st.write("Upload the Image Below and See the predicted objects name along with t
 
 file_up = st.file_uploader("Upload an image", type=["jpg"])
 
-if file_up is not None:
-    image = Image.open(file_up)
-    st.image(image, caption='Uploaded Image.', use_column_width=True)
+#if file_up is not None:
+  #  image = Image.open(file_up)
+  #  st.image(image, caption='Uploaded Image.', use_column_width=True)
     
