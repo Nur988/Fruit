@@ -9,9 +9,9 @@ components.html(ht.header2,height=150,width=1500)
 st.title(" Simple Image Classification App Using Deep Learning")
 st.write("Upload the Image Below and See the predicted objects name along with their porbability score")
 
-file_up = st.file_uploader("Upload an image", type="jpg")
+file_up = st.file_uploader("Upload an image", type=["jpg"])
 
 if file_up is not None:
     image = Image.open(file_up)
     st.image(image, caption='Uploaded Image.', use_column_width=True)
-    st.write("")
+    
