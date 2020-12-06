@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from clf import predict
+#from clf import predict
 import streamlit.components.v1 as components
 import ht
 st.set_page_config(layout='wide',initial_sidebar_state='collapsed')
