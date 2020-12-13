@@ -1,3 +1,4 @@
+import torchvision
 from torchvision import models, transforms
 import torch
 from PIL import Image
